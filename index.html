@@ -9,7 +9,10 @@
 
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
 
 
 	<body>
@@ -44,17 +47,141 @@
 
 		<div id="header" class="header">
 			<div class="container">
-				<div class="col-lg-6 col-md-6">
+				<div class="col-lg-6 col-md-6 wow bounceInLeft" data-wow-delay="1s">
 					<h1>Kia Ora</h1>
 					<h2>Welcome to New Zealand</h2>
 					<p>Lorem ipsum dolor sit amet, audire molestie eos cu. An utinam ancillae mandamus eam, ne usu tempor noluisse splendide. Qui ad graece dictas ornatus, ancillae mediocritatem eum id, nam nostro doctus deserunt id. Ut quidam cetero constituam usu, ne has veri movet legendos. Mei probo modus et, vel aeterno eligendi maiestatis cu.</p>
-					<button class="btn btn-lg btn-success">View our Blog</button>
+					<button class="btn btn-md btn-success">View our Blog</button>
 				</div>
 				<div class="col-lg-6 col-md-6">
-					<img src="images/nzmapboth.png">
+					<img src="images/nzmapblack.png">
 
 
 				</div>
+			</div>
+		</div>
+
+		<!--- End of Header -->
+
+		<!--History-->
+
+
+		<div class="history">
+			<div class="container">
+			
+				<div class="col-lg-12 col-md-12">
+				<div class="hisory-header">
+					<h2>A bit of History</h2>
+					<br>
+					<p>Her Majesty Queen Victoria of the United Kingdom of Great Britain and Ireland regarding with Her Royal Favor the Native Chiefs and Tribes of New Zealand </p>
+					</div>
+					<hr>
+					<div class="historylinks">
+						<div class="row">
+							<a href="#">
+								<div class="col-lg-3 col-md-3">
+									<i class="fa fa-free-code-camp" aria-hidden="true"></i>
+									<h4>Māori settlement</h4>
+									<p>Read the histric treaty that brought together two nations</p>
+
+								</div>
+								<a href="#">
+									<div class="col-lg-3 col-md-3">
+										<i class="fa fa-ship" aria-hidden="true"></i>
+										<h4>The first Europeans</h4>
+										<p>The first European to arrive in New Zealand was the Dutch explorer Abel Tasman in 1642</p>
+
+									</div>
+								</a>
+								<a href="#">
+									<div class="col-lg-3 col-md-3">
+										<i class="fa fa-handshake-o" aria-hidden="true"></i>
+										<h4>Treaty of Waitangi</h4>
+										<p>Read the histric treaty that brought together two nations</p>
+
+									</div>
+								</a>
+								<a href="#">
+									<div class="col-lg-3 col-md-3">
+										<i class="fa fa-hand-peace-o" aria-hidden="true"></i>
+										<h4>Conflict and growth</h4>
+										<p>Māori came under increasing pressure to sell their land for settlement.</p>
+
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--End History-->
+
+		<div class="attractions" id="attractions">
+			<h2>Attractions</h2>
+			<p>Click on the images to view more info about the attraction</p>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-lg-4">
+						<h4>Rotorua</h4>
+					<a href="#"><img src="images/Rotorua.jpg"></a>
+
+					</div>
+					<div class="col-md-4 col-lg-4">
+						<h4>Mt Maunganui</h4>
+						<a href="#"><img src="images/mtmaunganui.jpg"></a>
+
+					</div>
+
+					<div class="col-md-4 col-lg-4">
+						<h4>Gisborne</h4>
+						<a href="#"><img src="images/gisborne.jpg"></a>
+
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-lg-4">
+						<h4>Wellington</h4>
+						<a href="#"><img src="images/Wellington.jpg"></a>
+
+					</div>
+					<div class="col-md-4 col-lg-4">
+						<h4>Taranaki</h4>
+						<a href="#"><img src="images/taranaki.jpg"></a>
+
+					</div>
+					<div class="col-md-4 col-lg-4">
+						<h4>Queenstown</h4>
+						<a href="#"><img src="images/queenstown.jpg"></a>
+
+					</div>
+
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 col-lg-4">
+						<h4>Raglan</h4>
+						<a href="#"><img src="images/raglan.jpg"></a>
+
+					</div>
+					<div class="col-md-4 col-lg-4">
+						<h4>Wanaka</h4>
+						<a href="#"><img src="images/wanaka.jpg"></a>
+
+					</div>
+					<div class="col-md-4 col-lg-4">
+						<h4>Coromandel</h4>
+						<a href="#"><img src="images/coromandel.jpg"></a>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	
 
 
 
@@ -63,14 +190,11 @@
 
 
 
-
-
-
-
-
-
-				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-				<script src="js/bootstrap.min.js"></script>
-			</body>
-			</html>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		            <script>
+		            new WOW().init();
+		            </script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+	</html>
