@@ -37,11 +37,13 @@ p{
 	transition: all 300ms ease-in-out;
 	font-weight: 500;
 	text-transform: uppercase;
+	background-color: #f08080;
+	border-color: #f08080;
 }
 .btn:hover {
-	background-color: #ededed
+	background-color: #a85959;
 	color: #3c3c3c;
-	border: 1px solid #fff
+	border: 1px solid #fff;
 }
 
 
@@ -54,19 +56,19 @@ p{
 }
 
 .navbar a{
-	color: green;
+	color: white;
 	opacity: 0.9;
 }
 
 .navbar a:hover{
 	opacity: 1;
-	background-color: white;
+	color: #a85959;
 }
 
 /*Header*/
 
 .header{
-	height: 600px;
+	height: 500px;
 	width: 100%;
 	padding: 80px 0 30px;
 	background-image: url(../images/headerbkground.jpg);
@@ -80,7 +82,7 @@ p{
 .header img{
 	height: 440px;
 	width: 380px;
-	margin: 70px 0 20px 100px;
+	margin: 30px 0 20px 50px;
 }
 
 .header h1,
@@ -148,7 +150,7 @@ p{
 .history{
 	text-align: center;
 	padding: 60px 0 0px;
-	background-image: url("../images/history.jpg")
+	
 	background-size: cover;
 	background-repeat: none;
 	}
@@ -157,7 +159,8 @@ p{
 	}
 	 .history i:hover{
 		color: #323834;
-		padding-top: 20px;
+		padding-top: 30px;
+		background-color: #a85959;
 	}
 
 .history h1.
@@ -178,7 +181,7 @@ p{
 	font-size: 30px;
 	padding: 25px 20px;
 	border-radius: 50%;
-	background-color: #50e074;
+	background-color: #f08080;
 }
 
 @media(max-width: 960px) {
@@ -194,7 +197,7 @@ p{
 /*Attractions*/
 
 .attractions{
-padding: 20px 10px 20px 10px;
+padding: 20px 10px 50px 10px;
 text-align: center;
 
 }
@@ -227,3 +230,134 @@ iframe {
 		max-width: 100%;
 	}
 }
+
+/*contact*/
+
+.contact {
+	padding: 50px 0 8px;
+	text-align: center;
+}
+
+.contact p{
+	padding-bottom: 80px;
+	color: #737373;
+}
+
+.contact h2{
+	color: #4c4c4c;
+	margin: 20px 0 20px;
+
+}
+
+.contact .input-group{
+	margin-bottom: 25px;
+}
+
+.contact .form-control{
+	border-radius: 0;
+}
+.contact span{
+	border-radius: 0;
+}
+
+.contact .btn{
+	border-radius: 0;
+	width: 100%;
+	font-size: 15px;
+	background-color: #f08080;
+	color: white;
+}
+.contact .btn:hover{
+	background-color: #a85959;
+	color: #fff;
+}
+
+/*Events*/
+
+	.events{
+		padding: 50px 0 80px;
+		text-align: center;
+		background-color: #3399ff;
+	}
+
+
+	}
+	.events p{
+		padding-bottom: 40px; 
+	}
+	 .event{
+		padding: 30px;
+		border: 1px solid #ccc;
+		background-color: #fff;
+		border-radius: 5px;
+		margin-top: 30px;
+
+	}
+	.event h4,
+	.event h1 {
+		color: #4c4c4c;
+	}
+	.events button{
+		margin-top: 10px;
+		margin-left: 8em;
+	}
+	.event p{
+		font-size: 12px;
+	}
+	.event span{
+		font-size: 40px;
+		font-weight: bold;
+		color: #4c4c4c;
+	}
+	.event img{
+
+	}
+	.heading{
+		color: #fff;
+	}
+
+	/*parralax*/
+
+	body, html{
+	  margin:0;
+	  padding:0;
+	}
+
+	.containerparralax{
+
+		width: 1320px;
+		margin: 0 auto;
+		background: #F9F9F9;
+		font-size: 24px;
+		padding: 25px;
+		margin-top: 80px; 
+	}
+	.containerparralax h4{
+		text-align: center;
+		font-weight: 100;
+	}
+	.containerparralax img{
+		max-width: 90%;
+	}
+	.containerparralax h2{
+		text-align: center;
+	}
+	.parallax {
+	    min-height: 500px;
+	    background: transparent;
+	}
+	h1{
+		text-align: center;
+		vertical-align: center;
+		z-index: 2;
+	}
+
+	@media (min-width: 220px){
+		.container{
+			max-width: 100%;
+		}
+			.containerparralax {
+				max-width: 100%;
+		}
+	}
+
